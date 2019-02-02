@@ -1,4 +1,4 @@
-package com.example.moileproject.Queestiontype1;
+package com.example.moileproject.Questiontype1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
