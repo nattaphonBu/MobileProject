@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question2.Flower14">
+    tools:context=".Question2.Earth14">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,7 +16,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:text=" 1.What is Provincial Flower?"
+            android:text="14.What is the planet ?"
             android:textSize="30dp"/>
         <ImageView
             android:layout_width="match_parent"
@@ -34,14 +34,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn1"
-                android:text="Sing Buri"
+                android:text="Space"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn2"
-                android:text="Sukhothai"/>
+                android:text="Sun"/>
 
         </LinearLayout>
         <LinearLayout
@@ -55,13 +55,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn3"
-                android:text="Suphan Buri"/>
+                android:text="Solarsystem"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn4"
-                android:text="Songkhla"/>
+                android:text="Mars"/>
 
         </LinearLayout>
     </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question2.Flower1">
+    tools:context=".Question2.Earth10">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,13 +16,13 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:text=" 1.What is Provincial Flower?"
+            android:text="10.What is the planet ?"
             android:textSize="30dp"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:src="@drawable/img1"/>
+            android:src="@drawable/img10"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -34,14 +34,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn1"
-                android:text="Loei"
+                android:text="Sun"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn2"
-                android:text="Yala"/>
+                android:text="Uranus"/>
 
         </LinearLayout>
         <LinearLayout
@@ -55,13 +55,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn3"
-                android:text="Nan"/>
+                android:text="Venus"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn4"
-                android:text="Chumporn"/>
+                android:text="Neptune"/>
 
         </LinearLayout>
     </LinearLayout>

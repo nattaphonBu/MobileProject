@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question1.Crypto1">
+    tools:context=".Question2.Earth13">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,13 +15,15 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="            2.what is cypto name ?"
-            android:textSize="25dp"/>
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text=" 13.What is the planet ?"
+            android:textSize="30dp"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:src="@drawable/ada"/>
+            android:src="@drawable/img13"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -31,15 +34,15 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="byn1"
-                android:text="ADA"
+                android:onClick="btn1"
+                android:text="Sun"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="byn2"
-                android:text="BTC"/>
+                android:onClick="btn2"
+                android:text="Universe"/>
 
         </LinearLayout>
         <LinearLayout
@@ -53,13 +56,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn3"
-                android:text="ETH"/>
+                android:text="Pluto"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="byn1"
-                android:text="ENG"/>
+                android:onClick="btn4"
+                android:text="Solarsystem"/>
 
         </LinearLayout>
     </LinearLayout>

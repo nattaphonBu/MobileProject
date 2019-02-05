@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question2.Flower6">
-
+    tools:context=".Question2.Earth11">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,13 +16,13 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:text=" 1.What is Provincial Flower?"
+            android:text="11.What is the planet ?"
             android:textSize="30dp"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:src="@drawable/img6"/>
+            android:src="@drawable/img11"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -35,14 +34,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn1"
-                android:text="Lampang"
+                android:text="Star"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn2"
-                android:text="Songkhla"/>
+                android:text="Solarsystem"/>
 
         </LinearLayout>
         <LinearLayout
@@ -56,13 +55,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn3"
-                android:text="Surat Thani"/>
+                android:text="Asteroid"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn4"
-                android:text="Ranong"/>
+                android:text="Space"/>
 
         </LinearLayout>
     </LinearLayout>

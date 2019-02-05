@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Question2.Flower12">
+    tools:context=".Question2.Earth3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,13 +17,13 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:text=" 1.What is Provincial Flower?"
+            android:text="3.What is the planet ?"
             android:textSize="30dp"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="3"
-            android:src="@drawable/img12"/>
+            android:src="@drawable/img3"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -35,14 +35,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn1"
-                android:text="Maha Sarakham"
+                android:text="Course"
                 />
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn2"
-                android:text="Phitsanulok"/>
+                android:text="Constellation"/>
 
         </LinearLayout>
         <LinearLayout
@@ -56,13 +56,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn3"
-                android:text="Phetchaburi"/>
+                android:text="Continent"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="btn4"
-                android:text="Mae Hong Son"/>
+                android:text="Comet"/>
 
         </LinearLayout>
     </LinearLayout>
