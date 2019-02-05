@@ -8,28 +8,31 @@ import android.view.View;
 import com.example.newmobile.Localstorage;
 import com.example.newmobile.R;
 
-public class Crypto16 extends AppCompatActivity {
+public class Kitchen14 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_crypto16);
+        setContentView(R.layout.activity_kitchen14);
     }
     public void btn1(View view){
         Localstorage.score++;
-        Intent intent = new  Intent(this,Crypto2.class);
+        Intent intent = new  Intent(this, Kitchen15.class);
         startActivity(intent);
     }
     public void btn2(View view){
-        Intent intent = new  Intent(this,Crypto2.class);
+        Intent intent = new  Intent(this,Kitchen15.class);
         startActivity(intent);
     }
     public void btn3(View view){
-        Intent intent = new  Intent(this,Crypto2.class);
+
+        Intent intent = new  Intent(this,Kitchen15.class);
         startActivity(intent);
+
     }
     public void btn4(View view){
-        Intent intent = new  Intent(this,Crypto2.class);
+
+        Intent intent = new  Intent(this,Kitchen15.class);
         startActivity(intent);
     }
 }
