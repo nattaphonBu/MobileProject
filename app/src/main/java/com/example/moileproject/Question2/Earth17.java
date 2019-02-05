@@ -8,28 +8,28 @@ import android.view.View;
 import com.example.newmobile.Localstorage;
 import com.example.newmobile.R;
 
-public class Flower18 extends AppCompatActivity {
+public class Earth17 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flower18);
+        setContentView(R.layout.activity_earth17);
     }
     public void btn1(View view){
         Localstorage.score++;
-        Intent intent = new  Intent(this, Flower1.class);
+        Intent intent = new  Intent(this, Earth18.class);
         startActivity(intent);
     }
     public void btn2(View view){
-        Intent intent = new  Intent(this, Flower1.class);
+        Intent intent = new  Intent(this, Earth18.class);
         startActivity(intent);
     }
     public void btn3(View view){
-        Intent intent = new  Intent(this,Flower1.class);
+        Intent intent = new  Intent(this, Earth18.class);
         startActivity(intent);
     }
     public void btn4(View view){
-        Intent intent = new  Intent(this,Flower1.class);
+        Intent intent = new  Intent(this, Earth18.class);
         startActivity(intent);
     }
 }
